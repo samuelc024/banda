@@ -3,6 +3,10 @@ import random
 class BandaAleatoria:
     def __init__(self):
         self.guitarra=Guitarra()
+        self.maracas=Maracas()
+        self.flauta=Flauta()
+        self.violin=Violin()
+        self.=Guitarra()
         self.cantidad=0
         self.instrumentos=[Guitarra(),Maracas(),Piano(),Violin(),Trompeta()]
     def cbanda(self):
