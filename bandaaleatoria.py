@@ -13,7 +13,7 @@ class BandaAleatoria:
         return random.randint(1,10)
     def ainstrumento(self):
         return random.choice(self.instrumentos)
-    def tocar_banda(self):
+    def tocar_y_afinar_banda(self):
         a=BandaAleatoria
         b=a.cbanda()
         for i in range(b):
