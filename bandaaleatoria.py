@@ -4,7 +4,7 @@ class BandaAleatoria:
     def __init__(self):
         self.guitarra=Guitarra()
         self.maracas=Maracas()
-        self.flauta=Flauta()
+        self.trompeta=Trompeta()
         self.violin=Violin()
         self.piano=Piano()
         self.cantidad=0
@@ -26,8 +26,8 @@ class BandaAleatoria:
                 print(self.piano.tocar())
             elif c==Violin():
                 print(self.violon.tocar())
-            elif c==Maracas():
-                print(self.maracas.tocar())
+            elif c==Trompeta():
+                print(self.trompeta.tocar())
                 
                 
                 
