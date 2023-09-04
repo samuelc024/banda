@@ -11,6 +11,11 @@ class BandaAleatoria:
     def tocar_banda(self):
         a=BandaAleatoria
         b=a.cbanda()
+        for i in range(b):
+            c=a.ainstrumento()
+            if c==Guitarra():
+                tocar.guitarra()
+                
         
 if __name__ =='__main__':
     a=BandaAleatoria()
