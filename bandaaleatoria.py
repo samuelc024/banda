@@ -19,7 +19,19 @@ class BandaAleatoria:
         for i in range(b):
             c=a.ainstrumento()
             if c==Guitarra():
-                self.guitarra.tocar()
+                print(self.guitarra.tocar())
+            elif c==Maracas():
+                print(self.maracas.tocar())
+            elif c==Piano():
+                print(self.piano.tocar())
+            elif c==Violin():
+                print(self.violon.tocar())
+            elif c==Maracas():
+                print(self.maracas.tocar())
+                
+                
+                
+                
                 
         
 if __name__ =='__main__':
