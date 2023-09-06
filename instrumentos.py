@@ -23,6 +23,11 @@ class Instrumento:
             print("La tromepta esta afinada y ")
         def tocar(self):
             print("se esta tocando la tompeta")
+    class Violin(Instrumento):
+        def afinar(self):
+            print("El violin esta afinado y ")
+        def tocar(self):
+            print("se esta tocando el violin")
     
 
 if __name__ =='__main__':
