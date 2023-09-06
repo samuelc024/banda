@@ -2,11 +2,7 @@ from musicos import *
 import random
 class BandaAleatoria:
     def __init__(self):
-        self.guitarra=Guitarra()
-        self.maracas=Maracas()
-        self.trompeta=Trompeta()
-        self.violin=Violin()
-        self.piano=Piano()
+      
         self.cantidad=0
         self.instrumentos=[Guitarra(),Maracas(),Piano(),Violin(),Trompeta()]
     def cbanda(self):
@@ -18,16 +14,9 @@ class BandaAleatoria:
         b=a.cbanda()
         for i in range(b):
             c=a.ainstrumento()
-            if c==Guitarra():
-                print(self.guitarra.tocar())
-            elif c==Maracas():
-                print(self.maracas.tocar())
-            elif c==Piano():
-                print(self.piano.tocar())
-            elif c==Violin():
-                print(self.violon.tocar())
-            elif c==Trompeta():
-                print(self.trompeta.tocar())
+            a.instrumento.tocar()
+            a.instrumento.afinar()
+
                 
                 
                 
