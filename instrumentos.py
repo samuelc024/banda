@@ -13,6 +13,11 @@ class Instrumento:
             print("El piano no necesita ser afinado")
         def tocar(self):
             print("se estan tocando el piano")
+    class Guitarra(Instrumento):
+        def afinar(self):
+            print("La guitarra esta afinada y ")
+        def tocar(self):
+            print("se esta tocando la guitarra")
     
 
 if __name__ =='__main__':
